@@ -8,7 +8,7 @@ public class RangerRoster {
 	
 	
 	public static Morpher getRanger(boolean Human) {
-		if(inside) {
+		if(Human) {
 			return new Human();
 		}else {
 			return new PowerRanger();

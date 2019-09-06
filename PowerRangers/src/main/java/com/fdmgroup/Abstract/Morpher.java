@@ -1,14 +1,10 @@
 package com.fdmgroup.Abstract;
 
-public abstract class Morpher {
+public abstract class Morpher{
 	
 	
 	
-	
-	public static IPowerRanger Morph(String identifier) {
-		// TODO Auto-generated method stub
-		return null;
-	}
+	public abstract IPowerRanger Morph(String identifier);
 	
 	
 	

@@ -5,16 +5,16 @@ public class PowerRanger extends Morpher{
 	
 	
 	@Override
-	IPowerRanger Morph(String name) {
+	public	IPowerRanger Morph(String identifier) {
 		
 		
-		if(name=="Adam") {
+		if(indentifier=="Adam") {
 			return new Adam();
 		}
-		if(name=="Justin") {
+		if(indentifier=="Justin") {
 			return new Justin();
 		}
-		if(name=="Katherine") {
+		if(indentifier=="Katherine") {
 			return new Katherine();
 		}	
 		return null;
